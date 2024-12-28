@@ -6,7 +6,7 @@ from PyPDF2 import PdfReader
 
 # Function to get API key
 def get_api_key():
-    encoded_key = "QUl6YVN5Q05DdHp5ZFZSVTV0VWNkWl9PaDRVNG5lUFVxenFCZncw"  # Example encoded key
+    encoded_key = "GEMINI_API_KEY"  # Example encoded key
     return base64.b64decode(encoded_key).decode('utf-8')
 
 # Initialize Gemini model
